@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button     android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/BTrigger"
+        android:text="Add Triggers" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/EText"
+        />
+        <Button     android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/BSave"
+            android:text="Save" />
+
+    </LinearLayout>
+    <Button     android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/BConseq"
+        android:text="Add Consequences" />
+</LinearLayout>

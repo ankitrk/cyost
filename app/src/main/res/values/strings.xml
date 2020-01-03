@@ -1,0 +1,19 @@
+<resources>
+    
+    <string name="app_name">CYOST</string>
+
+    <array name="conseqdropdown">
+    <item>display</item>
+    <item>set</item>
+    <item>increment</item>
+    <item>roll</item>
+</array>
+    <array name="triggerdropdown">
+        <item>equal</item>
+        <item>less than</item>
+        <item>greaterthan</item>
+        <item>roll</item>
+    </array>
+</resources>
+
+
